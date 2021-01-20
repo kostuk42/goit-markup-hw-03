@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    <header class="fontsize-header-footer-advantage">
+    <div class="header-container">
+    <header class="fontsize-header-footer-advantage main-blocks-centred">
+    
         <!-- логотип -->
         <a class="logo" href="./index.html"><span>Web</span>Studio</a>
     
@@ -32,25 +34,28 @@
             </ul>
             <!-- контакты -->
         </nav>
-    
-        <a class="contacts mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-    
+         <ul>
+        <li><a class="contacts mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     
     </header>
-              
+  </div>
+    
       <main>
         <!-- Hero -->
         
         <section class="hero">
+           
             <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
-            <a class="order" href="">Заказать услугу</a>
+            <a class="order-btn" href="">Заказать услугу</a>
+           
         </section>
         <!-- наши преимущества -->
         <div class="background">
           <section class="fontsize-header-footer-advantage">
             <h2 hidden="">Наши преимущества</h2>
-            <ul class="advantages">
+            <ul class="advantages main-blocks-centred">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -71,9 +76,9 @@
           </section>
           <!-- чем мы занимаемся -->
         
-          <section>
-            <h2 class="business">Чем мы занимаемся</h2>
-            <ul>
+          <section class="main-blocks-centred">
+            <h2 class="section-title">Чем мы занимаемся</h2>
+            <ul class="business-list">
                 <li><img src="./img/main/algorythm.png" width="370" alt=""></li>
                 <li><img src="./img/main/phone.png" width="370" alt=""></li>
                 <li><img src="./img/main/paint.png" width="370" alt=""></li>
@@ -82,40 +87,42 @@
         </div>
         <!-- наша команда -->
         <section class="team">
-            <h2 class="business">Наша команда</h2>
-            <ul>
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="main-blocks-centred">
                  <li>
                      <img src="./img/main/lukyanenko.jpg" width="270" alt="Лукьяненко">
-                     <p><b>Игорь Демьяненко</b></p>
+                     <b>Игорь Демьяненко</b>
                      <p>Product Designer</p>
                     </li>
                  <li>
                      <img src="./img/main/repina.jpg" width="270" alt="Репина">
-                     <p><b>Ольга Репина</b></p>
+                     <b>Ольга Репина</b>
                      <p>Frontend Developer</p>
                     </li>
                  <li>
                      <img src="./img/main/tarasov.jpg" width="270" alt="Тарасов">
-                    <p><b>Николай Тарасов</b></p>
+                    <b>Николай Тарасов</b>
                     <p>Marketing</p>
                     </li>
                  <li>
                      <img src="./img/main/ermakov.jpg" width="270" alt="Ермаков">
-                     <p><b>Михаил Ермаков</b></p>
+                     <b>Михаил Ермаков</b>
                      <p>UI Designer</p>
                     </li>
             </ul>
         </section>
     </main>
-    <footer class="fontsize-header-footer-advantage">
-        <a class="logo" href=""><span>Web</span>Studio</a>
+<div class="footer-container">
+    <footer class="fontsize-header-footer-advantage main-blocks-centred">
+        <a class="logo logo-footer" href=""><span>Web</span>Studio</a>
         <address>
             <ul>
-                <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
+                <li>г. Киев, пр-т Леси Украинки, 26</li>
                 <li><a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
+</div>
 </body>
 </html>
