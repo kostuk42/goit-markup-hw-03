@@ -174,6 +174,7 @@ footer li:not(:last-child) {
 .background {
 	width: 1600px;
 	background-color: var(--background-basic-color);
+	padding: 94px 0px;
 }
 
 .main-blocks-centred{
@@ -185,7 +186,6 @@ footer li:not(:last-child) {
 .advantages {
 	
 	display: flex;
-	padding-top: 94px;
 	justify-content: center;
 }
 
@@ -223,7 +223,7 @@ footer li:not(:last-child) {
 	display: flex;
 	justify-content: center;
 	margin: 0px auto;
-	padding-bottom: 94px;
+	
 }
 .business-list li:not(:last-child){
 	margin-right: 30px;
@@ -249,13 +249,14 @@ footer li:not(:last-child) {
 }
 .team li {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	background: var(--accent-color);
 }
 .team b {
 	display: block;
 	color: var(--font-heading-color);
-	padding-top: 30px;
-	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 
 }
 .team p {
@@ -263,7 +264,15 @@ footer li:not(:last-child) {
 	
 }
 /* страница портфолио */
+
 .filter {
+	
+	display: flex;
+	justify-content: center;
+	
+
+}
+.filter-btn{
 	font-weight: 500;
 	line-height: 1.62;
 	text-align: center;
@@ -273,20 +282,53 @@ footer li:not(:last-child) {
 	font-style: inherit;
 	letter-spacing: inherit;
 	font-size: inherit;
+	min-width: 84px;
+	padding: 6px 22px;
+	border-radius: 4px;
+	border: 0px;
 }
-.filter:hover,
-.filter:focus {
+.filter li:not(:last-child) {
+	margin-right: 8px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
 	background-color: var(--hover-web-color);
 	color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.photo-work {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	
+}
+.photo-work li:not(:nth-child(3n)){
+	margin-right: 27px;
+}
+.photo-work li{
+	border: 1px solid #EEEEEE; 
+	background: var(--accent-color);
+	margin-bottom: 30px;
+}
+.photo-work li:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+}
+.photo-work b, .photo-work p {
+	margin-left: 24px;
 }
 .photo-work b {
+	display:block;
 	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 4px;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--font-heading-color);
+	
 }
 .photo-work p {
 	line-height: 1.87;
 	color: var(--font-description-item-color);
+	margin-bottom: 20px;
 }
