@@ -120,13 +120,14 @@ header li:not(:first-child) {
 
 .footer-container {
 	width: 1600px;
-	height: 252px;
+	
 	background-color: var(--background-footer-hero-color);
 }
 footer {
 	line-height: 1.71;
 	font-style: var(--font-style);
 	--font-heading-color: var(--accent-color);
+	padding: 60px 0px;
 }
 address {
 	font-style: inherit;
@@ -135,7 +136,7 @@ address {
 
 .logo-footer {
 	display: block;
-	padding-top: 60px; 
+	 
 	padding-bottom: 20px;
 }
 footer li:not(:last-child) {
@@ -171,7 +172,8 @@ footer li:not(:last-child) {
 .hero {
 	background-color: var(--background-footer-hero-color);
 	width: 1600px;
-	height: 600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	text-align: center;
 	
 }
@@ -180,8 +182,7 @@ footer li:not(:last-child) {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	padding-top: 200px;
-	
+		
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--accent-color);
