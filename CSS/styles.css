@@ -44,6 +44,7 @@ body {
 	font-style: var(--font-style);
 	letter-spacing: 0.03em;
 	font-weight: normal;
+	margin: 0px auto;
 	font-size: var(--fontsize-team-projectsdesc-buttons);
 }
 
@@ -277,16 +278,18 @@ footer li:not(:last-child) {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	background: var(--accent-color);
+	padding-bottom: 30px;
+	
 }
 .team b {
 	display: block;
 	color: var(--font-heading-color);
 	margin-top: 30px;
-	margin-bottom: 10px;
+	
 
 }
 .team p {
-	padding-bottom: 30px;
+     padding-top: 10px;	
 	
 }
 /*============== СТРАНИЦА ПОРТФОЛИО ===================== */
